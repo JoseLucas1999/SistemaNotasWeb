@@ -1,0 +1,94 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Playfair+Display&family=Poppins:wght@100&family=Roboto&display=swap');
+
+*{
+	font-family: 'Inter', sans-serif ;
+}
+main{
+    margin-top: 80px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoNome{
+    /*border: 1px solid white;*/
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    color: #fff;
+}
+
+.cadastro-form{
+	display: flex;
+    flex-direction:column;
+    background: rgb(0, 0, 0,.5);
+    border-radius: 10px;
+    width: 400px;
+    padding: 40px;
+}
+
+.cadastro-form h2{
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+.cadastro-form .box{
+    position: relative;
+}
+
+.cadastro-form .box input{
+    width: 100%;
+    padding: 10px 0;
+    outline: none;
+    border: 0;
+    background: transparent;
+    border-bottom: 1px solid  #fff;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.forget{
+    font-size: 12px;
+    color: #5b6b8b;
+    float: right;
+}
+
+.btn{
+    border: 1px solid #03e9f4;
+    border-radius: 10px;
+    position: relative;
+    display: inline-block;
+    padding: 12px 20px;
+    color: #03e9f4;
+    background-color: #172031;
+    text-decoration: none;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 700;
+    margin-top: 20px;
+    transition: .5s;
+    overflow: hidden;
+}
+
+.btn:hover{
+    background: #03e9f4;
+    border-radius: 10px;
+    color: #172031;
+}
+
+@media (max-width: 450px){
+    .login{
+        width:90%;
+    }
+}
+
+span{
+    color: #fff;
+}

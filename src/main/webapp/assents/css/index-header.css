@@ -1,0 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Playfair+Display&family=Poppins:wght@100&family=Roboto&display=swap');
+
+header{
+    background-color: #24252a;
+    box-shadow: 0 3px 10px #464646;
+}
+
+.nav-bar{
+    display: flex;
+    padding: 1.5rem 6rem;
+}
+
+.nav-bar .logo{
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    border: 3px solid white;
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px 5px #172031;
+}
+
+.nav-bar .logo h1{
+    color: #fff;
+}
+
+.nav-bar .logoNome{
+    /*border: 1px solid white;*/
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    color: #fff;
+}
